@@ -1,0 +1,70 @@
+@charset "UTF-8";
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        ".  h   h   h   ."
+        ".  n   n   n   ."
+        ".  p   p   p   ."
+    ;
+    background-color: beige;
+}
+.lora{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: lighter;
+    font-style: normal;
+  }
+#h{
+    grid-area: h;
+    background-color: rgb(105, 18, 18);
+    text-align: center;
+    font-family: "lora", serif;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#nav{
+    grid-area: n;
+    text-align: center;
+    background-color: brown;
+    align-items: center;
+    padding: 5px;
+}
+#nav a{
+    border: solid black 2px;
+    border-radius: 3px;
+    color: black;
+    align-items: center;
+    margin: 0;
+    padding: 2px;
+    display: inline-flex;
+}
+#nav a:hover{
+    background-color: rgb(105, 18, 18);
+}
+#p{
+    grid-area: p;
+    background-color: rgb(105, 18, 18);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "t  t   t   img"
+        "u  .   .   ."
+    ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    grid-area: t;
+}
+ul{
+    grid-area: u;
+}
+#img{
+    grid-area: img;
+    background-image: url(img/formar.jpg);
+    background-size: contain;
+}

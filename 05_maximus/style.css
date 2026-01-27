@@ -1,0 +1,70 @@
+@charset "UTF8";
+body{
+    margin: 0;
+}
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0 40px 0;
+}
+h1{
+    color: #fc3;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+}
+h3{
+    margin: 0;
+}
+nav{
+    background-color: #555;
+}
+nav a{
+    background-color: #444;
+    color: #fc3;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 5px;
+    align-items: center;
+}
+nav a:hover{
+    background-color: #333;
+}
+main{
+    display: flex;
+}
+article{
+    flex: 2;
+    background-color: #eee;
+}
+.art span{
+    border: 1px solid #fc3;
+    padding: 4px;
+    border-radius: 4px;
+}
+aside{
+    flex: 1;
+    padding: 10px;
+}
+#venedig{
+    background: url(images/venedig.jpg);
+    margin: 10px;
+}
+#sangimignano{
+    background: url(images/sangimignano.jpg);
+}
+aside div{
+    background: cover;
+    padding: 110px 10px 10px 10px;
+}
+aside div section{
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside div section h5{
+    margin: 0;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

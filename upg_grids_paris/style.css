@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a  b   c"
+    "d  .   e"
+    "f  g   h"
+    "i  k   k"
+    "j  k   k"
+    ;
+    padding: 0 20% 0 20%;
+}
+#a{
+    grid-area: a;
+    background: url(Paris_Grids/a.jpg);
+    background-size: cover;
+}
+#b{
+    grid-area: b;
+    background: url(Paris_Grids/b.webp);
+    background-size: cover;
+}
+#c{
+    grid-area: c;
+    background: url(Paris_Grids/c.jpg);
+    background-size: cover;
+    border-top-right-radius: 30px;
+}
+#d{
+    grid-area: d;
+    background: url(Paris_Grids/d.jpg);
+    background-size: cover;
+}
+#e{
+    grid-area: e;
+    background: url(Paris_Grids/e.jpg);
+    background-size: cover;
+}
+#f{
+    grid-area: f;
+    background: url(Paris_Grids/f.jpg);
+    background-size: cover;
+}
+#g{
+    grid-area: g;
+    background: url(Paris_Grids/g.webp);
+    background-size: cover;
+}
+#h{
+    grid-area: h;
+    background: url(Paris_Grids/h.jpg);
+    background-size: cover;
+    border-bottom-right-radius: 30px;
+}
+#i{
+    grid-area: i;
+    background: url(Paris_Grids/i.jpg);
+    background-size: cover;
+}
+#j{
+    grid-area: j;
+    background: url(Paris_Grids/j.jpg);
+    background-size: cover;
+}
+#k{
+    grid-area: k;
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;   
+    padding: 40px;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
